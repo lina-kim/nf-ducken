@@ -2,11 +2,12 @@
 
 title: nf-ducken Documentation
 email: lina.kim@hest.ethz.ch
+repository: bokulich-lab/nf-ducken
 description: >- # this means to ignore newlines until "baseurl:" 
  nf-ducken is a scalable platform for microbiome bioinformatics analysis using QIIME 2 and Nextflow.
-baseurl: /docs 
-destination: _site/
-url: https://bokulich-lab.github.io/nf-ducken # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /nf-ducken/docs/
+url: "https://bokulich-lab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+destination: docs/_site/
 twitter_username: linathekim
 github_username:  bokulich-lab
 
@@ -14,6 +15,7 @@ github_username:  bokulich-lab
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-github-metadata
 
 # Exclude from processing.
 # The following items will not be processed, by default.
